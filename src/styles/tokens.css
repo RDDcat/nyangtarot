@@ -1,0 +1,42 @@
+/* 냥타로 design tokens — shared by UI and art. Change values here, not inline. */
+:root {
+  /* night sky */
+  --night-950: #0e0a1c;
+  --night-900: #140f26;
+  --night-800: #1e1638;
+  --night-700: #2a1f4d;
+  --night-600: #3a2c66;
+  --violet-500: #7b5cd6;
+  --violet-300: #b9a4f5;
+
+  /* gold foil */
+  --gold-500: #e0ac4a;
+  --gold-400: #f2c66d;
+  --gold-300: #f7dc9c;
+
+  /* paper (검사표) */
+  --paper: #fff7ea;
+  --paper-2: #f6ead3;
+  --paper-line: #e4d3b4;
+  --ink: #2b2140;
+  --ink-soft: #5d5078;
+
+  /* accents */
+  --pink-300: #ff9fb8;
+  --pink-400: #ff7c9c;
+  --mint-300: #8fe3cf;
+  --sky-300: #9cd3ff;
+
+  /* type */
+  --font-display: 'Jua', 'Gowun Dodum', system-ui, sans-serif;
+  --font-body: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+
+  /* shape */
+  --radius-card: 16px;
+  --radius-ui: 14px;
+  --shadow-card: 0 18px 40px -12px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(242, 198, 109, 0.25);
+
+  /* motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
