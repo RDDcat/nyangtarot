@@ -111,7 +111,7 @@ Contract: `src/data/types.ts`. Canonical identity + topic direction: `src/data/d
 - `npm run validate [-- ids]` — content validator.
 - `npm run art [-- ids]` — render illustrations to `qa-shots/art/<id>.png` (+ `gallery.png`, `card-back.png`
   when run with no ids). Read the PNGs to check your work visually.
-- Screenshot the running app (puppeteer): `node /private/tmp/claude-501/-Users-maro-Documents-yukmaro-icebreaking/f5cb076b-224f-4ab7-8c00-de5dc2288ce6/scratchpad/qa/shoot.mjs <url> <out.png> [--w 390 --h 844]
+- Screenshot the running app (puppeteer): `node <qa-dir>/shoot.mjs (puppeteer-core helper, not in repo) <url> <out.png> [--w 390 --h 844]
   [--full] [--wait ms] [--click "<selector>"] [--tap-text "<button text>"] [--key ArrowRight]`.
 
 ## File ownership (parallel agents — only edit what you own)
